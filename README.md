@@ -11,7 +11,7 @@ A pandemia do novo coronavirus COVID-19 teve início na cidade de Wuhan na provi
 Desde então, esforços mundiais unificados vem sendo realizados para prover suporte a sistemas de saúde, desenvolver tratamentos consistentes, evitar a proliferação da doença, desenvolvimento de vacinas entre outros. 
 Este trabalho propõe a construção de um novo modelo de Machine Learning, avaliando diversos algoritmos diferentes com comparação por métricas estatísticas, para a previsão precoce da necessidade de internações em CTIs. 
 A base de dados utilizada será a provida pelo Hospital Sírio-Libanês da cidade de São Paulo no Brasil. 
-Como resultado, pretende-se obter um modelo que atinja valores de AUC acima 0.7.
+Como resultado, pretende-se obter um trabalho em formato de artigo científico que apresente um modelo que atinja valores de AUC acima 0.7.
 
 ---
 - # Do Referencial Teórico:
@@ -73,3 +73,27 @@ Como resultado, foi obtido um modelo com as seguintes métricas:
 Em seguida, o modelo foi salvo em arquivo para sua utilização quando necessário.
 Uma matriz de confusão e um relatório de *Precision*, *Recall* e *F1-score* foram emitidos.
 Pode-se apontar um *Recall* de 0.94 para o índice 1, o que é de extremamente otimista para o uso do modelo em questão, uma vez que essa métrica representa aqueles pacientes que precisariam de CTI, mas foi indicado o contrário.
+
+---
+- # Para Começar a Leitura
+
+https://github.com/arvieira/bootcamp_projeto_final/blob/main/notebooks/ProjetoFinal.ipynb
+
+---
+- # Referências
+
+WIKIPEDIA, COVID-19 pandemic. 2021. Disponível em: https://en.wikipedia.org/wiki/COVID-19_pandemic
+
+OMS, Coronavirus. 2021. Disponível em: https://www.who.int/health-topics/coronavirus
+
+SÍRIO-LIBANES, COVID-19 - Clinical Data to assess diagnosis. Sírio-Libanês data for AI and Analytics by Data Intelligence Team. 2021. Disponível em: https://www.kaggle.com/S%C3%ADrio-Libanes/covid19
+
+LI, Wei Tse et al. Using machine learning of clinical data to diagnose COVID-19: a systematic review and meta-analysis. BMC medical informatics and decision making, v. 20, n. 1, p. 1-13, 2020.
+
+YAN, Li et al. Prediction of criticality in patients with severe Covid-19 infection using three clinical features: a machine learning-based prognostic model with clinical data in Wuhan. MedRxiv, 2020.
+
+NEMATI, Mohammadreza; ANSARY, Jamal; NEMATI, Nazafarin. Machine-learning approaches in COVID-19 survival analysis and discharge-time likelihood prediction using clinical data. Patterns, v. 1, n. 5, p. 100074, 2020.
+
+PURKAYASTHA, Subhanik et al. Machine learning-based prediction of COVID-19 severity and progression to critical illness using CT imaging and clinical data. Korean Journal of Radiology, v. 22, 2021.
+
+SHUNG, KOO PING; Accuracy, Precision, Recall or F1?. 2021. Disponível em: https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9
